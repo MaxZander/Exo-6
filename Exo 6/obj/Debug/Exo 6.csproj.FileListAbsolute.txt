@@ -1,0 +1,11 @@
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\bin\Debug\Exo 6.exe.config
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\bin\Debug\Exo 6.exe
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\bin\Debug\Exo 6.pdb
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo 6.csprojAssemblyReference.cache
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo_6.MainApp.resources
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo_6.Properties.Resources.resources
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo 6.csproj.GenerateResource.cache
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo 6.csproj.CoreCompileInputs.cache
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo 6.exe
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo 6.pdb
+C:\Users\tsgeri\source\repos\Exo 6\Exo 6\obj\Debug\Exo_6.AddUsers.resources
