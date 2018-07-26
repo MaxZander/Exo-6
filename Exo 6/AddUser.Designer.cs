@@ -1,16 +1,16 @@
 ﻿namespace Exo_6
 {
-    partial class MainApp
+    partial class AddUser
     {
         /// <summary>
-        /// Variable nécessaire au concepteur.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Nettoyage des ressources utilisées.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Code généré par le Concepteur Windows Form
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-        /// le contenu de cette méthode avec l'éditeur de code.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -41,15 +41,9 @@
             this.txt_lastname = new System.Windows.Forms.TextBox();
             this.txt_adress = new System.Windows.Forms.TextBox();
             this.txt_name = new System.Windows.Forms.TextBox();
-            this.btn_exit = new System.Windows.Forms.Button();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_end = new System.Windows.Forms.Button();
-            this.btn_right = new System.Windows.Forms.Button();
-            this.btn_left = new System.Windows.Forms.Button();
-            this.btn_first = new System.Windows.Forms.Button();
+            this.btn_ok = new System.Windows.Forms.Button();
+            this.btn_cancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -67,10 +61,10 @@
             this.groupBox1.Controls.Add(this.txt_adress);
             this.groupBox1.Controls.Add(this.txt_name);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(11, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(631, 261);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Stagiaire";
             // 
@@ -170,96 +164,44 @@
             this.txt_name.Size = new System.Drawing.Size(360, 20);
             this.txt_name.TabIndex = 2;
             // 
-            // btn_exit
+            // btn_ok
             // 
-            this.btn_exit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_exit.Location = new System.Drawing.Point(509, 340);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(75, 23);
-            this.btn_exit.TabIndex = 6;
-            this.btn_exit.Text = "Quitter";
-            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_ok.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_ok.Location = new System.Drawing.Point(486, 279);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(75, 23);
+            this.btn_ok.TabIndex = 2;
+            this.btn_ok.Text = "OK";
+            this.btn_ok.UseVisualStyleBackColor = true;
             // 
-            // btn_add
+            // btn_cancel
             // 
-            this.btn_add.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_add.Location = new System.Drawing.Point(428, 340);
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(75, 23);
-            this.btn_add.TabIndex = 5;
-            this.btn_add.Text = "Ajouter";
-            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_cancel.Location = new System.Drawing.Point(567, 279);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_cancel.TabIndex = 3;
+            this.btn_cancel.Text = "Annuler";
+            this.btn_cancel.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // AddUsers
             // 
-            this.groupBox2.Controls.Add(this.btn_end);
-            this.groupBox2.Controls.Add(this.btn_right);
-            this.groupBox2.Controls.Add(this.btn_left);
-            this.groupBox2.Controls.Add(this.btn_first);
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox2.Location = new System.Drawing.Point(12, 279);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(631, 55);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Se déplacer";
-            // 
-            // btn_end
-            // 
-            this.btn_end.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_end.Location = new System.Drawing.Point(497, 19);
-            this.btn_end.Name = "btn_end";
-            this.btn_end.Size = new System.Drawing.Size(75, 23);
-            this.btn_end.TabIndex = 3;
-            this.btn_end.Text = ">> Dernier";
-            this.btn_end.UseVisualStyleBackColor = true;
-            // 
-            // btn_right
-            // 
-            this.btn_right.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_right.Location = new System.Drawing.Point(416, 19);
-            this.btn_right.Name = "btn_right";
-            this.btn_right.Size = new System.Drawing.Size(75, 23);
-            this.btn_right.TabIndex = 2;
-            this.btn_right.Text = "> Suivant";
-            this.btn_right.UseVisualStyleBackColor = true;
-            // 
-            // btn_left
-            // 
-            this.btn_left.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_left.Location = new System.Drawing.Point(335, 19);
-            this.btn_left.Name = "btn_left";
-            this.btn_left.Size = new System.Drawing.Size(75, 23);
-            this.btn_left.TabIndex = 1;
-            this.btn_left.Text = "< Précédent";
-            this.btn_left.UseVisualStyleBackColor = true;
-            // 
-            // btn_first
-            // 
-            this.btn_first.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_first.Location = new System.Drawing.Point(254, 19);
-            this.btn_first.Name = "btn_first";
-            this.btn_first.Size = new System.Drawing.Size(75, 23);
-            this.btn_first.TabIndex = 0;
-            this.btn_first.Text = "<< Premier";
-            this.btn_first.UseVisualStyleBackColor = true;
-            // 
-            // MainApp
-            // 
+            this.AcceptButton = this.btn_ok;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(654, 371);
-            this.Controls.Add(this.btn_exit);
-            this.Controls.Add(this.btn_add);
-            this.Controls.Add(this.groupBox2);
+            this.CancelButton = this.btn_cancel;
+            this.ClientSize = new System.Drawing.Size(654, 311);
+            this.Controls.Add(this.btn_cancel);
+            this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.groupBox1);
-            this.Name = "MainApp";
-            this.Text = "Affiche un Stagiaire";
-            this.Load += new System.EventHandler(this.MainApp_Load);
+            this.MaximumSize = new System.Drawing.Size(670, 350);
+            this.MinimumSize = new System.Drawing.Size(670, 350);
+            this.Name = "AddUsers";
+            this.ShowInTaskbar = false;
+            this.Text = "Ajouter un Stagiaire";
+            this.Load += new System.EventHandler(this.AddUsers_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -273,19 +215,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_postal;
-        private System.Windows.Forms.TextBox txt_OSIA;
-        private System.Windows.Forms.TextBox txt_city;
-        private System.Windows.Forms.TextBox txt_lastname;
-        private System.Windows.Forms.TextBox txt_adress;
-        private System.Windows.Forms.TextBox txt_name;
-        private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.Button btn_add;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btn_end;
-        private System.Windows.Forms.Button btn_right;
-        private System.Windows.Forms.Button btn_left;
-        private System.Windows.Forms.Button btn_first;
+        internal System.Windows.Forms.TextBox txt_postal;
+        internal System.Windows.Forms.TextBox txt_OSIA;
+        internal System.Windows.Forms.TextBox txt_city;
+        internal System.Windows.Forms.TextBox txt_lastname;
+        internal System.Windows.Forms.TextBox txt_adress;
+        internal System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.Button btn_ok;
+        private System.Windows.Forms.Button btn_cancel;
     }
 }
-

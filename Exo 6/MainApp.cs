@@ -12,7 +12,7 @@ namespace Exo_6
 {
     public partial class MainApp : Form
     {
-        AddUsers f1;
+        AddUser f1 = new AddUser();
         public MainApp()
         {
             InitializeComponent();
@@ -20,15 +20,17 @@ namespace Exo_6
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            f1 = new AddUsers();
+            
 
             if (f1.ShowDialog(this) == DialogResult.OK)
             {
                 this.txt_OSIA.Text = f1.txt_OSIA.Text;
-            }
-            else
-            {
-                MessageBox.Show("Ajout annulé.", "Annulation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.txt_lastname.Text = f1.txt_name.Text;
+                this.txt_name.Text = f1.txt_name.Text;
+                this.txt_adress.Text = f1.txt_adress.Text;
+                this.txt_city.Text = f1.txt_city.Text;
+                this.txt_postal.Text = f1.txt_postal.Text;
+
             }
             f1.Dispose();
         }
