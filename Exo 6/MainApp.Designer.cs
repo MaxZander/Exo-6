@@ -179,6 +179,7 @@
             this.btn_exit.TabIndex = 6;
             this.btn_exit.Text = "Quitter";
             this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_add
             // 
@@ -189,6 +190,7 @@
             this.btn_add.TabIndex = 5;
             this.btn_add.Text = "Ajouter";
             this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // groupBox2
             // 

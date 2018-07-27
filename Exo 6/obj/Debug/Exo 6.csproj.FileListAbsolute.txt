@@ -21,3 +21,14 @@ C:\Users\tsgeri\source\repos\Exo 6\Exo-6\Exo 6\obj\Debug\Exo 6.exe
 C:\Users\tsgeri\source\repos\Exo 6\Exo-6\Exo 6\obj\Debug\Exo 6.pdb
 C:\Users\tsgeri\source\repos\Exo 6\Exo-6\Exo 6\obj\Debug\Exo_6.AddUser.resources
 C:\Users\tsgeri\source\repos\Exo 6\Exo-6\Exo 6\obj\Debug\Exo_6.AddUsers.resources
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\bin\Debug\Exo 6.exe.config
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\bin\Debug\Exo 6.exe
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\bin\Debug\Exo 6.pdb
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo_6.AddUser.resources
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo_6.MainApp.resources
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo_6.Properties.Resources.resources
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo 6.csproj.GenerateResource.Cache
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo 6.csproj.CoreCompileInputs.cache
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo 6.exe
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo 6.pdb
+C:\Users\marvi\Source\Repos\Exo-6\Exo 6\obj\Debug\Exo 6.csprojResolveAssemblyReference.cache

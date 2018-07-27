@@ -12,7 +12,7 @@ namespace Exo_6
 {
     public partial class MainApp : Form
     {
-        AddUser f1 = new AddUser();
+        AddUser f1;
         public MainApp()
         {
             InitializeComponent();
@@ -20,16 +20,22 @@ namespace Exo_6
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            
-
+            f1 = new AddUser();
             if (f1.ShowDialog(this) == DialogResult.OK)
             {
-                this.txt_OSIA.Text = f1.txt_OSIA.Text;
-                this.txt_lastname.Text = f1.txt_name.Text;
-                this.txt_name.Text = f1.txt_name.Text;
-                this.txt_adress.Text = f1.txt_adress.Text;
-                this.txt_city.Text = f1.txt_city.Text;
-                this.txt_postal.Text = f1.txt_postal.Text;
+                MSstagiaire sstagiaire = new MSstagiaire();
+                sstagiaire.Nom = f1.txt_lastname.Text;
+                sstagiaire.NumOsia = Int32.Parse(f1.txt_OSIA.Text);
+                sstagiaire.Prenom = f1.txt_name.Text;
+                sstagiaire.Rue = f1.txt_adress.Text;
+                sstagiaire.Ville = f1.txt_city.Text;
+                sstagiaire.CodePostal = f1.txt_postal.Text;
+                this.txt_OSIA.Text = sstagiaire.NumOsia.ToString();
+                this.txt_lastname.Text = sstagiaire.Nom;
+                this.txt_name.Text = sstagiaire.Prenom;
+                this.txt_adress.Text = sstagiaire.Rue;
+                this.txt_city.Text = sstagiaire.Ville;
+                this.txt_postal.Text = sstagiaire.CodePostal;
 
             }
             f1.Dispose();
