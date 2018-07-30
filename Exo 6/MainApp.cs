@@ -36,6 +36,7 @@ namespace Exo_6
                 this.txt_adress.Text = sstagiaire.Rue;
                 this.txt_city.Text = sstagiaire.Ville;
                 this.txt_postal.Text = sstagiaire.CodePostal;
+                //Test Github VS
 
             }
             f1.Dispose();
